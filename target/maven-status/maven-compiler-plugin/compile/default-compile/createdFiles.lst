@@ -1,0 +1,4 @@
+org\example\dmytrok\testplugin\commands\MagicWandCommand.class
+org\example\dmytrok\testplugin\DK_MagicWand_Plugin.class
+org\example\dmytrok\testplugin\itemcreator\MagicWandCreator.class
+org\example\dmytrok\testplugin\events\magicwandevents\MagicWandEvent.class

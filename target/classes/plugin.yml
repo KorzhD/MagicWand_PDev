@@ -1,0 +1,13 @@
+name: TestPlugin
+version: '1.0-SNAPSHOT'
+main: org.example.dmytrok.testplugin.TestPlugin
+commands:
+  getSuperWand:
+    description: Creating magic wand
+    usage: /getSuperWand
+    permission: getMagicWand.admin
+permissions:
+  getSuperWand.admin:
+    description: Only admin can get magic wand
+    default: op
+
