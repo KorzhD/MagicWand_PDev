@@ -4,7 +4,7 @@ main: org.example.dmytrok.dk_magicwand_plugin.DK_MagicWand_Plugin
 commands:
   getSuperWand:
     description: Creating magic wand
-    usage: /getSuperWand
+    usage: /getMagicWand
     permission: getMagicWand.admin
 permissions:
   getSuperWand.admin:

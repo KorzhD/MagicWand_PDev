@@ -14,8 +14,8 @@ public final class DK_MagicWand_Plugin extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new MagicWandEvent(), this);
 
-        if(getCommand("getSuperWand") != null) {
-            getCommand("getSuperWand").setExecutor(new MagicWandCommand());
+        if(getCommand("getMagicWand") != null) {
+            getCommand("getMagicWand").setExecutor(new MagicWandCommand());
         } else {
             getLogger().info("Something WRONG");
         }
