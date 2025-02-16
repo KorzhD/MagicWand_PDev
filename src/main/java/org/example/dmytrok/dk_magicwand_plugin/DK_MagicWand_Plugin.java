@@ -1,8 +1,8 @@
-package org.example.dmytrok.testplugin;
+package org.example.dmytrok.dk_magicwand_plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import org.example.dmytrok.testplugin.events.magicwandevents.MagicWandEvent;
-import org.example.dmytrok.testplugin.commands.MagicWandCommand;
+import org.example.dmytrok.dk_magicwand_plugin.events.magicwandevents.MagicWandEvent;
+import org.example.dmytrok.dk_magicwand_plugin.commands.MagicWandCommand;
 
 
 public final class DK_MagicWand_Plugin extends JavaPlugin {

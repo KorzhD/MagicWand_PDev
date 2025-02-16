@@ -1,4 +1,4 @@
-package org.example.dmytrok.testplugin.events.magicwandevents;
+package org.example.dmytrok.dk_magicwand_plugin.events.magicwandevents;
 
 import org.bukkit.Chunk;
 import org.bukkit.Material;

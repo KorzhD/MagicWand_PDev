@@ -1,4 +1,4 @@
-package org.example.dmytrok.testplugin.itemcreator;
+package org.example.dmytrok.dk_magicwand_plugin.itemcreator;
 
 import org.bukkit.*;
 import org.bukkit.enchantments.Enchantment;

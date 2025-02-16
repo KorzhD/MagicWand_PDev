@@ -1,6 +1,6 @@
-name: TestPlugin
+name: DK-MagicWand-Plugin
 version: '${project.version}'
-main: org.example.dmytrok.testplugin.TestPlugin
+main: org.example.dmytrok.dk_magicwand_plugin.DK_MagicWand_Plugin
 commands:
   getSuperWand:
     description: Creating magic wand

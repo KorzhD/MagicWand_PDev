@@ -1,11 +1,11 @@
-package org.example.dmytrok.testplugin.commands;
+package org.example.dmytrok.dk_magicwand_plugin.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.example.dmytrok.testplugin.itemcreator.MagicWandCreator;
+import org.example.dmytrok.dk_magicwand_plugin.itemcreator.MagicWandCreator;
 
 public class MagicWandCommand implements CommandExecutor {
     @Override

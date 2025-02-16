@@ -1,4 +1,4 @@
-org\example\dmytrok\testplugin\commands\MagicWandCommand.class
-org\example\dmytrok\testplugin\DK_MagicWand_Plugin.class
-org\example\dmytrok\testplugin\itemcreator\MagicWandCreator.class
-org\example\dmytrok\testplugin\events\magicwandevents\MagicWandEvent.class
+org\example\dmytrok\dk_magicwand_plugin\DK_MagicWand_Plugin.class
+org\example\dmytrok\dk_magicwand_plugin\events\magicwandevents\MagicWandEvent.class
+org\example\dmytrok\dk_magicwand_plugin\commands\MagicWandCommand.class
+org\example\dmytrok\dk_magicwand_plugin\itemcreator\MagicWandCreator.class
