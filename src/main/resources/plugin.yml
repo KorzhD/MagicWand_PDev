@@ -2,12 +2,12 @@ name: DK-MagicWand-Plugin
 version: '${project.version}'
 main: org.example.dmytrok.dk_magicwand_plugin.DK_MagicWand_Plugin
 commands:
-  getSuperWand:
+  getMagicWand:
     description: Creating magic wand
     usage: /getMagicWand
     permission: getMagicWand.admin
 permissions:
-  getSuperWand.admin:
+  getMagicWand.admin:
     description: Only admin can get magic wand
     default: op
 
