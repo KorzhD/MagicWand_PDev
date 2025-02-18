@@ -33,7 +33,7 @@ public class MagicWandEvent implements Listener {
 
         ItemMeta meta = itemStack.getItemMeta();
 
-        if (meta == null || !meta.hasDisplayName() || !meta.getDisplayName().equals("§5Magic Wand")) {
+        if (meta == null || !meta.hasDisplayName() || !meta.getDisplayName().equals("Magic Wand")) {
             return;
         }
 

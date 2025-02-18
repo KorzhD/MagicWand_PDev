@@ -18,7 +18,7 @@ public class MagicWandCreator {
         list.add("§6The most powerful thing in the World!");
 
         if (itemMeta != null) {
-            itemMeta.setDisplayName("§5Magic Wand");
+            itemMeta.setDisplayName("Magic Wand");
             itemMeta.setLore(list);
             itemMeta.addEnchant(Enchantment.VANISHING_CURSE, 1, true);
             itemMeta.setUnbreakable(true);
