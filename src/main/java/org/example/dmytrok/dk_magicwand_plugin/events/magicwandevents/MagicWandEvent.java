@@ -42,7 +42,7 @@ public class MagicWandEvent implements Listener {
 
         if (player.getInventory().getItemInOffHand().equals(new ItemStack(Material.TNT))) {
             player.getInventory().getItemInOffHand().setAmount(player.getInventory().getItemInOffHand().getAmount() - 1);
-            world.createExplosion(player.getLocation(), 10F, false);
+            world.createExplosion(player.getLocation().getBlockX(), player.getLocation().getBlockY(), player.getLocation().getBlockZ(), 10F, false, false);
             player.sendMessage("§cBoom boom bakudan!");
         }
 
